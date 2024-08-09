@@ -1,0 +1,10 @@
+
+version: 2
+sources:
+  - name: datafeed_shared_schema
+    database: "{{('customer')}}"
+    schema: source_layer
+    tables:
+     - name: raw_data
+     - name: orders_data
+     - name: item_data
